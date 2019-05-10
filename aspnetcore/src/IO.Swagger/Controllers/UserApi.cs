@@ -1,7 +1,7 @@
 /*
  * All-Plugins
  *
- * This is a sample Petstore server.
+ * This is a sample Petstore API.
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io

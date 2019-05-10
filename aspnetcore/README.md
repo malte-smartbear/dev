@@ -1,6 +1,6 @@
 # IO.Swagger - ASP.NET Core 2.0 Server
 
-This is a sample Petstore server.
+This is a sample Petstore API.
 
 ## Run
 

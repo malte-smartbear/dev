@@ -1,7 +1,7 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "This is a sample Petstore server.",
+    "description" : "This is a sample Petstore API.",
     "version" : "1.0.0",
     "title" : "All-Plugins",
     "termsOfService" : "http://swagger.io/terms/",
