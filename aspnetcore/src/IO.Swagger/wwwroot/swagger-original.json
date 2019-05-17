@@ -553,7 +553,7 @@
     },
     "/user/{username}" : {
       "get" : {
-        "tags" : [ "user" ],
+        "tags" : [ ],
         "summary" : "Get user by user name",
         "operationId" : "getUserByName",
         "produces" : [ "application/json", "application/xml" ],
