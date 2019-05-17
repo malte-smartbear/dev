@@ -32,6 +32,25 @@ namespace IO.Swagger.Controllers
     public class StoreApiController : Controller
     { 
         /// <summary>
+        /// Creates list of users with given input array
+        /// </summary>
+        
+        /// <param name="body">List of user object</param>
+        /// <response code="0">successful operation</response>
+        [HttpPost]
+        [Route("/malt-v5-team/all-plugins/1.0.0/user/createWithArray")]
+        [ValidateModelState]
+        [SwaggerOperation("CreateUsersWithArrayInput")]
+        public virtual IActionResult CreateUsersWithArrayInput([FromBody]List<User> body)
+        { 
+            //TODO: Uncomment the next line to return response 0 or use other options such as return this.NotFound(), return this.BadRequest(..), ...
+            // return StatusCode(0);
+
+
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
         /// Delete purchase order by ID
         /// </summary>
         /// <remarks>For valid response try integer IDs with positive integer value.\\ \\ Negative or non-integer values will generate API errors</remarks>

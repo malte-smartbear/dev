@@ -445,7 +445,7 @@
     },
     "/user/createWithArray" : {
       "post" : {
-        "tags" : [ "user" ],
+        "tags" : [ "user", "yste", "store" ],
         "summary" : "Creates list of users with given input array",
         "operationId" : "createUsersWithArrayInput",
         "produces" : [ "application/json", "application/xml" ],
@@ -744,6 +744,7 @@
       "xml" : {
         "name" : "User"
       },
+      "description" : "jkjh\n",
       "example" : {
         "firstName" : "firstName",
         "lastName" : "lastName",
